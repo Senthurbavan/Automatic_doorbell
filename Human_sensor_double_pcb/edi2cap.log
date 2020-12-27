@@ -1,0 +1,117 @@
+
+EDIF to OrCAD Capture Schematic Conversion Program, Version 2.13 Built With EDI V2.54
+ (C) Copyright 1996-1999 - Engineering DataXpress, Inc., All rights reserved.
+
+ Started Sun Feb 25 21:20:52 2018
+
+Reading options from C:\Program Files\Orcad\Capture\EDI2CAP.CFG
+Reading file F:\New folder\HSENSOR.EDF
+Opening library F:\HSEN\DEFAULT.OLB
+Translating symbol PAGE_BORDER_TEMPLATE
+Translating symbol PIN_SHORT
+Translating symbol PIN_LINE
+Translating symbol 20
+Translating symbol PIN_DOT_30
+Opening library F:\HSEN\CAPSYM.OLB
+Translating symbol VCC
+Translating symbol GND
+Translating symbol 0
+WARNING: Ignoring commentGraphics encountered in a symbol
+Translating symbol TitleBlock0
+Opening library F:\HSEN\ANALOG.OLB
+Translating symbol C
+Translating symbol R
+Opening library F:\HSEN\DI.OLB
+Translating symbol 1N1183
+Opening library F:\HSEN\ZRE200GE.OLB
+Translating symbol PIR
+Opening library F:\HSEN\CONNECTOR.OLB
+Translating symbol CON3
+Translating symbol CON2
+Opening library F:\HSEN\EVAL.OLB
+Translating symbol LM324
+Opening library F:\HSEN\DISCRETE.OLB
+Translating symbol LED
+Translating symbol SW KEY-YM061
+Opening library F:\HSEN\ESP8266-12EESP-12E.OLB
+Translating symbol ESP8266-12EESP-12E
+Opening library F:\HSEN\REGULATOR.OLB
+Translating symbol BA033T/TO
+Opening library F:\HSEN\HSENSOR.OLB
+Opening Design 'F:\HSEN\HSENSOR.DSN'
+Opening Schematic 'SCHEMATIC1'
+Opening Page 1: 'PAGE1'
+Symbol C at location 430 110
+Symbol C at location 240 450
+Symbol R at location 540 290
+Symbol C at location 540 250
+Symbol 1N1183 at location 300 330
+Symbol PIR at location 80 150
+Symbol R at location 670 290
+Symbol CON3 at location 580 730
+Symbol LM324 at location 780 80
+Symbol R at location 670 120
+Symbol LED at location 130 600
+Symbol C at location 300 300
+Symbol C at location 410 190
+Symbol ESP8266-12EESP-12E at location 340 550
+Symbol LM324 at location 800 220
+Symbol SW KEY-YM061 at location 800 480
+Symbol R at location 290 270
+Symbol LM324 at location 520 150
+Symbol LED at location 130 690
+Symbol R at location 440 190
+Symbol 1N1183 at location 300 370
+Symbol C at location 740 300
+Symbol SW KEY-YM061 at location 300 770
+Symbol SW KEY-YM061 at location 350 520
+Symbol C at location 710 100
+Symbol R at location 670 230
+Symbol R at location 670 60
+Symbol CON2 at location 860 570
+Symbol R at location 50 650
+Symbol R at location 110 200
+Symbol R at location 240 400
+Symbol R at location 120 110
+Symbol C at location 150 140
+Symbol LM324 at location 280 170
+Symbol BA033T/TO at location 960 570
+Creating TitleBlockSymbol TitleBlock0 from GraphicObject in library 
+Creating Symbol VCC.global from GraphicObject in library CAPSYM
+Creating Symbol GND.global from GraphicObject in library CAPSYM
+Creating Symbol 0.global from GraphicObject in library CAPSYM
+WARNING: Added name display to Net N12356 at 680, 90
+WARNING: Added name display to Net N12368 at 680, 170
+WARNING: Added name display to Net N12490 at 750, 130
+WARNING: Added name display to Net N12498 at 140, 150
+WARNING: Added name display to Net N12636 at 140, 210
+WARNING: Added name display to Net N12716 at 340, 340
+WARNING: Added name display to Net N12724 at 530, 260
+WARNING: Added name display to Net N12752 at 260, 370
+WARNING: Added name display to Net N12868 at 750, 290
+WARNING: Added name display to Net N13120 at 250, 440
+WARNING: Added name display to Net N13140 at 810, 460
+WARNING: Added name display to Net N13204 at 280, 570
+WARNING: Added name display to Net N13294 at 810, 580
+WARNING: Added name display to Net N13336 at 290, 580
+WARNING: Added name display to Net N13352 at 550, 590
+WARNING: Added name display to Net N13374 at 270, 780
+WARNING: Added name display to Net N13396 at 310, 610
+WARNING: Added name display to Net N14134 at 310, 700
+WARNING: Added name display to Net N14144 at 80, 610
+Saving Library F:\HSEN\HSENSOR.OLB
+Saving Library F:\HSEN\DISCRETE.OLB
+Saving Library F:\HSEN\CONNECTOR.OLB
+Saving Library F:\HSEN\ESP8266-12EESP-12E.OLB
+Saving Library F:\HSEN\EVAL.OLB
+Saving Library F:\HSEN\CAPSYM.OLB
+Saving Library F:\HSEN\ZRE200GE.OLB
+Saving Library F:\HSEN\REGULATOR.OLB
+Saving Library F:\HSEN\DEFAULT.OLB
+Saving Library F:\HSEN\DI.OLB
+Saving Library F:\HSEN\ANALOG.OLB
+Saving Design F:\HSEN\HSENSOR.DSN
+
+Completed Sun Feb 25 21:20:59 2018
+Translated 15 symbols and 1 schematic, 0 errors, 20 warnings
+

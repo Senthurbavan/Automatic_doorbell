@@ -1,0 +1,65 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\door bell.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\door bell.dsn")
+      (Path "Design Resources" ".\door bell.dsn" "SCHEMATIC1")
+      (Select "Design Resources" ".\door bell.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 313 0 383"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 858 1720 6 621")
+        (Scroll "331 40")
+        (Zoom "142")
+        (Occurrence "/"))
+      (Path "F:\PROJECT\NEW FOLDER\DOOR BELL.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "battery level"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 98 1239 233 854")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "F:\PROJECT\NEW FOLDER\DOOR BELL.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "power"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 1225 1910 274 857")
+        (Scroll "444 262")
+        (Zoom "140")
+        (Occurrence "/"))
+      (Path "F:\PROJECT\NEW FOLDER\DOOR BELL.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "sound"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 376 1444 79 707")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "F:\PROJECT\NEW FOLDER\DOOR BELL.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "WiFi"))))

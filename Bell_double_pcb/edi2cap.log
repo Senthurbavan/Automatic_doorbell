@@ -1,0 +1,229 @@
+
+EDIF to OrCAD Capture Schematic Conversion Program, Version 2.13 Built With EDI V2.54
+ (C) Copyright 1996-1999 - Engineering DataXpress, Inc., All rights reserved.
+
+ Started Wed Apr 18 23:47:39 2018
+
+Reading options from C:\Program Files\Orcad\Capture\EDI2CAP.CFG
+Reading file F:\project\New folder\DOOR BELL.EDF
+********** Duplicate Rename String nameDefs ***********
+***  Clashing instanceNameDef: TITLEBLOCK0_0, "TitleBlock0"
+  In the following context: 
+    instance TITLEBLOCK0_0, "TitleBlock0"
+    page POWER, "power"
+    contents
+    view SCHEMATIC1_SCH, "SCHEMATIC1_SCH"
+    cell SCHEMATIC1, "SCHEMATIC1"
+    library DOOR_BELL, "DOOR BELL"
+    edif G__DOORBELL_SEME5_FINAL_DOOR_BELL_EDF, "G__DOORBELL_SEME5_FINAL_DOOR_BELL_EDF"
+    Immediate Scope for this name class is: page POWER, "power"
+*** System name clash with: instanceNameDef: TITLEBLOCK0, "TitleBlock0"
+  In the following context: 
+    instance TITLEBLOCK0, "TitleBlock0"
+    page POWER, "power"
+    Immediate Scope for this name class is: page POWER, "power"
+<<<< WARNING - Rename String changed to: TitleBlock0_TITLEBLOCK0_0 >>>>
+-----------------------------------------
+*** EDIF Reader or Semantic Checker Errors/Warnings = 0/1
+Opening library F:\PROJECT\NEW FOLDER\DEFAULT.OLB
+Translating symbol PAGE_BORDER_TEMPLATE
+Translating symbol PIN_SHORT
+Translating symbol 20
+Translating symbol PIN_LINE
+Translating symbol PIN_DOT_30
+Opening library F:\PROJECT\NEW FOLDER\CAPSYM.OLB
+Translating symbol 0
+WARNING: Ignoring commentGraphics encountered in a symbol
+Translating symbol OFFPAGELEFT-L
+Translating symbol TitleBlock0
+Translating symbol OFFPAGELEFT-R
+Translating symbol VCC
+Translating symbol GND
+Opening library F:\PROJECT\NEW FOLDER\SCHEMETIC_DOORBELL.OLB
+Translating symbol GND
+Opening library F:\PROJECT\NEW FOLDER\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB
+Translating symbol R
+Translating symbol C
+Opening library F:\PROJECT\NEW FOLDER\WP7113SRDD.OLB
+Translating symbol WP7113SRDD
+Opening library F:\PROJECT\NEW FOLDER\2-1437565-8.OLB
+Translating symbol 2-1437565-8
+Opening library F:\PROJECT\NEW FOLDER\ESP8266-12EESP-12E.OLB
+Translating symbol ESP8266-12EESP-12E
+Opening library F:\PROJECT\NEW FOLDER\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB
+Translating symbol CON6
+Translating symbol CON2
+Opening library F:\PROJECT\NEW FOLDER\USERS\VENTH\DOWNLOADS\SCHEMETIC\EXPORT_SOUND\ANALOG.OLB
+Translating symbol R
+Opening library F:\PROJECT\NEW FOLDER\PWRMOS.OLB
+Translating symbol IRF520
+Opening library F:\PROJECT\NEW FOLDER\USERS\VENTH\DOWNLOADS\SCHEMETIC\EXPORT_SOUND\BREAKOUT.OLB
+Translating symbol POT
+Opening library F:\PROJECT\NEW FOLDER\USERS\VENTH\DOWNLOADS\SCHEMETIC\EXPORT_SOUND\CONNECTOR.OLB
+Translating symbol CON2
+Opening library F:\PROJECT\NEW FOLDER\DI.OLB
+Translating symbol 1N1183
+Opening library F:\PROJECT\NEW FOLDER\DISCRETE.OLB
+Translating symbol SW SPST/SM
+Opening library F:\PROJECT\NEW FOLDER\POWER_SUPPLY_1.OLB
+Translating symbol LM7805/TO_0
+Opening library F:\PROJECT\NEW FOLDER\REGULATOR.OLB
+Translating symbol LM3940/TO220
+Opening library F:\PROJECT\NEW FOLDER\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB
+Translating symbol POT
+Opening library F:\PROJECT\NEW FOLDER\MISC.OLB
+Translating symbol LM3914
+Opening library F:\PROJECT\NEW FOLDER\DOOR BELL.OLB
+Translating symbol LM741_1
+Opening Design 'F:\PROJECT\NEW FOLDER\DOOR BELL.DSN'
+Opening Schematic 'SCHEMATIC1'
+Opening Page 1: 'battery level'
+WARNING: Unable to get library CADENCE/SPB_17.2/TOOLS/CAPTURE/LIBRARY/CONNECTOR
+Object Not Found
+Symbol WP7113SRDD at location 630 200
+WARNING: Unable to get library CADENCE/SPB_17.2/TOOLS/CAPTURE/LIBRARY/PSPICE/ANALOG
+Object Not Found
+Symbol WP7113SRDD at location 630 230
+Symbol WP7113SRDD at location 640 170
+Symbol WP7113SRDD at location 630 260
+WARNING: Unable to get library CADENCE/SPB_17.2/TOOLS/CAPTURE/LIBRARY/PSPICE/BREAKOUT
+Object Not Found
+WARNING: Unable to get library CADENCE/SPB_17.2/TOOLS/CAPTURE/LIBRARY/PSPICE/BREAKOUT
+Object Not Found
+Symbol LM3914 at location 440 160
+WARNING: Unable to get library CADENCE/SPB_17.2/TOOLS/CAPTURE/LIBRARY/PSPICE/ANALOG
+Object Not Found
+Creating TitleBlockSymbol TitleBlock0 from GraphicObject in library 
+Creating Symbol GND.global from GraphicObject in library CAPSYM
+Creating Symbol VCC.global from GraphicObject in library CAPSYM
+WARNING: Added name display to Net GND at 310, 210
+WARNING: Added name display to Net N26451 at 410, 250
+WARNING: Added name display to Net N26471 at 370, 190
+WARNING: Added name display to Net N26615 at 390, 310
+WARNING: Added name display to Net N26659 at 630, 190
+WARNING: Added name display to Net N26747 at 620, 220
+WARNING: Added name display to Net N26835 at 620, 250
+WARNING: Added name display to Net N26961 at 290, 350
+WARNING: Added name display to Net N30429 at 410, 200
+WARNING: Added name display to Net N32657 at 620, 280
+WARNING: Added name display to Net VCC at 680, 80
+Opening Page 2: 'power'
+WARNING: Unable to get library CADENCE/SPB_17.2/TOOLS/CAPTURE/LIBRARY/CONNECTOR
+Object Not Found
+WARNING: Unable to get library CADENCE/SPB_17.2/TOOLS/CAPTURE/LIBRARY/PSPICE/ANALOG
+Object Not Found
+WARNING: Unable to get library CADENCE/SPB_17.2/TOOLS/CAPTURE/LIBRARY/CONNECTOR
+Object Not Found
+Symbol 1N1183 at location 100 210
+WARNING: Unable to get library CADENCE/SPB_17.2/TOOLS/CAPTURE/LIBRARY/PSPICE/ANALOG
+Object Not Found
+Symbol SW SPST/SM at location 110 30
+Symbol LM7805/TO_0 at location 440 460
+Symbol LM3940/TO220 at location 680 460
+Symbol LM7805/TO_0 at location 590 230
+Symbol WP7113SRDD at location 220 70
+WARNING: Unable to get library CADENCE/SPB_17.2/TOOLS/CAPTURE/LIBRARY/PSPICE/ANALOG
+Object Not Found
+WARNING: Unable to get library CADENCE/SPB_17.2/TOOLS/CAPTURE/LIBRARY/PSPICE/ANALOG
+Object Not Found
+WARNING: Unable to get library CADENCE/SPB_17.2/TOOLS/CAPTURE/LIBRARY/PSPICE/ANALOG
+Object Not Found
+WARNING: Unable to get library CADENCE/SPB_17.2/TOOLS/CAPTURE/LIBRARY/PSPICE/ANALOG
+Object Not Found
+WARNING: Unable to get library CADENCE/SPB_17.2/TOOLS/CAPTURE/LIBRARY/PSPICE/ANALOG
+Object Not Found
+Creating Symbol 0.global from GraphicObject in library CAPSYM
+Creating Symbol OFFPAGELEFT-L.offPage from GraphicObject in library CAPSYM
+WARNING: Added name display to Net 0 at 710, 490
+WARNING: Added name display to Net N35162 at 110, 300
+WARNING: Added name display to Net N35286 at 640, 480
+WARNING: Added name display to Net N35721 at 120, 100
+WARNING: Added name display to Net N37239 at 240, 150
+Opening Page 3: 'sound'
+WARNING: Unable to get library USERS/VENTH/DOWNLOADS/SCHEMETIC/EXPORT_SOUND/ANALOG
+Object Not Found
+WARNING: Unable to get library USERS/VENTH/DOWNLOADS/SCHEMETIC/EXPORT_SOUND/ANALOG
+Object Not Found
+WARNING: Unable to get library USERS/VENTH/DOWNLOADS/SCHEMETIC/EXPORT_SOUND/ANALOG
+Object Not Found
+Symbol IRF520 at location 700 380
+WARNING: Unable to get library USERS/VENTH/DOWNLOADS/SCHEMETIC/EXPORT_SOUND/BREAKOUT
+Object Not Found
+WARNING: Unable to get library USERS/VENTH/DOWNLOADS/SCHEMETIC/EXPORT_SOUND/CONNECTOR
+Object Not Found
+Symbol LM741_1 at location 500 320
+Creating Symbol GND.global from GraphicObject in library SCHEMETIC_DOORBELL
+Creating Symbol OFFPAGELEFT-R.offPage from GraphicObject in library CAPSYM
+WARNING: Added name display to Net N34157 at 400, 440
+WARNING: Added name display to Net N37462 at 610, 350
+Opening Page 4: 'WiFi'
+WARNING: Unable to get library CADENCE/SPB_17.2/TOOLS/CAPTURE/LIBRARY/PSPICE/ANALOG
+Object Not Found
+Symbol WP7113SRDD at location 870 210
+WARNING: Unable to get library CADENCE/SPB_17.2/TOOLS/CAPTURE/LIBRARY/PSPICE/ANALOG
+Object Not Found
+WARNING: Unable to get library CADENCE/SPB_17.2/TOOLS/CAPTURE/LIBRARY/PSPICE/ANALOG
+Object Not Found
+Symbol 2-1437565-8 at location 40 170
+WARNING: Unable to get library CADENCE/SPB_17.2/TOOLS/CAPTURE/LIBRARY/PSPICE/ANALOG
+Object Not Found
+WARNING: Unable to get library CADENCE/SPB_17.2/TOOLS/CAPTURE/LIBRARY/PSPICE/ANALOG
+Object Not Found
+Symbol WP7113SRDD at location 870 170
+Symbol WP7113SRDD at location 870 280
+Symbol WP7113SRDD at location 170 390
+Symbol ESP8266-12EESP-12E at location 380 170
+Symbol WP7113SRDD at location 170 440
+Symbol 2-1437565-8 at location 120 170
+WARNING: Unable to get library CADENCE/SPB_17.2/TOOLS/CAPTURE/LIBRARY/CONNECTOR
+Object Not Found
+WARNING: Added name display to Net N23315 at 840, 250
+WARNING: Added name display to Net N23323 at 930, 220
+WARNING: Added name display to Net N23335 at 330, 200
+WARNING: Added name display to Net N23343 at 600, 210
+WARNING: Added name display to Net N23383 at 50, 220
+WARNING: Added name display to Net N23411 at 850, 260
+WARNING: Added name display to Net N23443 at 230, 260
+WARNING: Added name display to Net N23455 at 360, 230
+WARNING: Added name display to Net N23459 at 360, 240
+WARNING: Added name display to Net N23491 at 660, 380
+WARNING: Added name display to Net N23507 at 850, 270
+WARNING: Added name display to Net N23591 at 270, 460
+WARNING: Added name display to Net N23599 at 230, 310
+WARNING: Added name display to Net N23773 at 150, 410
+Saving Library F:\PROJECT\NEW FOLDER\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB
+ERROR: Invalid Library file path F:\PROJECT\NEW FOLDER\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB.  Create the directory or use -libname
+to map the file path to a valid directory
+Saving Library F:\PROJECT\NEW FOLDER\DI.OLB
+Saving Library F:\PROJECT\NEW FOLDER\USERS\VENTH\DOWNLOADS\SCHEMETIC\EXPORT_SOUND\CONNECTOR.OLB
+ERROR: Invalid Library file path F:\PROJECT\NEW FOLDER\USERS\VENTH\DOWNLOADS\SCHEMETIC\EXPORT_SOUND\CONNECTOR.OLB.  Create the directory or use -libname
+to map the file path to a valid directory
+Saving Library F:\PROJECT\NEW FOLDER\2-1437565-8.OLB
+Saving Library F:\PROJECT\NEW FOLDER\USERS\VENTH\DOWNLOADS\SCHEMETIC\EXPORT_SOUND\ANALOG.OLB
+ERROR: Invalid Library file path F:\PROJECT\NEW FOLDER\USERS\VENTH\DOWNLOADS\SCHEMETIC\EXPORT_SOUND\ANALOG.OLB.  Create the directory or use -libname
+to map the file path to a valid directory
+Saving Library F:\PROJECT\NEW FOLDER\ESP8266-12EESP-12E.OLB
+Saving Library F:\PROJECT\NEW FOLDER\DISCRETE.OLB
+Saving Library F:\PROJECT\NEW FOLDER\POWER_SUPPLY_1.OLB
+Saving Library F:\PROJECT\NEW FOLDER\MISC.OLB
+Saving Library F:\PROJECT\NEW FOLDER\WP7113SRDD.OLB
+Saving Library F:\PROJECT\NEW FOLDER\REGULATOR.OLB
+Saving Library F:\PROJECT\NEW FOLDER\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB
+ERROR: Invalid Library file path F:\PROJECT\NEW FOLDER\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB.  Create the directory or use -libname
+to map the file path to a valid directory
+Saving Library F:\PROJECT\NEW FOLDER\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB
+ERROR: Invalid Library file path F:\PROJECT\NEW FOLDER\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB.  Create the directory or use -libname
+to map the file path to a valid directory
+Saving Library F:\PROJECT\NEW FOLDER\DOOR BELL.OLB
+Saving Library F:\PROJECT\NEW FOLDER\PWRMOS.OLB
+Saving Library F:\PROJECT\NEW FOLDER\USERS\VENTH\DOWNLOADS\SCHEMETIC\EXPORT_SOUND\BREAKOUT.OLB
+ERROR: Invalid Library file path F:\PROJECT\NEW FOLDER\USERS\VENTH\DOWNLOADS\SCHEMETIC\EXPORT_SOUND\BREAKOUT.OLB.  Create the directory or use -libname
+to map the file path to a valid directory
+Saving Library F:\PROJECT\NEW FOLDER\DEFAULT.OLB
+Saving Library F:\PROJECT\NEW FOLDER\SCHEMETIC_DOORBELL.OLB
+Saving Library F:\PROJECT\NEW FOLDER\CAPSYM.OLB
+Saving Design F:\PROJECT\NEW FOLDER\DOOR BELL.DSN
+
+Completed Wed Apr 18 23:47:55 2018
+Translated 25 symbols and 1 schematic, 6 errors, 59 warnings
+
